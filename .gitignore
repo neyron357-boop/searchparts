@@ -1,0 +1,11 @@
+# Персональные данные с визиток в публичный репозиторий не кладём
+*.HEIC
+*.heic
+*.jpg
+*.jpeg
+UAE_Contacts*.xlsx
+UAE_Contacts*.json
+tools/contacts/corrections.py
+blind/
+drive_files/
+__pycache__/
