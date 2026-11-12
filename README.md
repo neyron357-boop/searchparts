@@ -5,6 +5,11 @@
 
 ## С чего начать новую сессию
 
+**Любой ИИ-агент** начинает с [`AGENTS.md`](AGENTS.md) — там порядок чтения, ограничения и обязательные шаги после работы
+(обновить знания и перенести в `main`). Claude Code читает его через `CLAUDE.md`, Gemini CLI — через `GEMINI.md`,
+Copilot — через `.github/copilot-instructions.md`. Для ChatGPT/Gemini/Claude в браузере — готовый текст
+[`knowledge/agent-prompt.md`](knowledge/agent-prompt.md).
+
 1. [`knowledge/rules.md`](knowledge/rules.md) — постоянные правила работы (подбор, фото, база контактов, формат ответа).
 2. [`knowledge/lessons.md`](knowledge/lessons.md) — уроки и типовые ошибки, которые уже встречались.
 3. [`knowledge/contacts-base.md`](knowledge/contacts-base.md) — как устроена и как обрабатывается база визиток поставщиков.
@@ -14,6 +19,9 @@
 
 | Путь | Что внутри |
 |---|---|
+| `AGENTS.md` | Инструкция для всех ИИ-агентов: что читать, ограничения, шаги после работы |
+| `CLAUDE.md`, `GEMINI.md`, `.github/copilot-instructions.md` | Указатели на `AGENTS.md` для конкретных агентов |
+| `knowledge/agent-prompt.md` | Текст для вставки в чат-агентов без доступа к репозиторию |
 | `knowledge/rules.md` | Правила пользователя для подбора деталей и работы с базой |
 | `knowledge/lessons.md` | Накопленные уроки: что работает, где ошибались, чего не делать |
 | `knowledge/contacts-base.md` | Схема базы контактов, ID, флаги, порядок пополнения и сверки |
